@@ -388,3 +388,12 @@ a {
 .links li a:hover {
   color: #2ed3cb;
 }
+
+footer{
+  color: white;
+  background: #292838;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: center ;
+  align-items: end;
+}
