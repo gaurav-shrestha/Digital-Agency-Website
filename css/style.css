@@ -59,6 +59,7 @@ a {
 
 .nav-item a:hover {
   color: #4e42d9;
+  font-weight: 600;
 }
 
 .right-info .button a {
@@ -319,4 +320,71 @@ a {
   color: white;
   font-weight: 700;
   font-size: 16px;
+}
+
+/* --------------------------------Footer Section-1--------------------------------------- */
+
+.container .footer-section-1{
+  color: white;
+  background: #292838;
+  padding: 72px 0px 60px 50px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+
+}
+
+.footer-section-1 .left{
+  max-width: 550px;
+  margin-bottom: 48px;
+  /* border: 2px solid greenyellow; */
+}
+
+.left .logo-text{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 12px;
+}
+
+.left .text{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-right: 30%;
+}
+
+.footer-section-1 .right{
+  width:512px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 72px;
+}
+
+.right .column {
+  margin-right: 12px;
+}
+
+.right .column .heading {
+  color: rgba(255, 255, 255, 0.906);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  margin-bottom: 24px;
+}
+
+.column .links li {
+  list-style: none;
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.column .links li a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.links li a:hover {
+  color: #2ed3cb;
 }
