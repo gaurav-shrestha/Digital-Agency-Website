@@ -370,7 +370,7 @@ a {
   color: #2ed3cb;
 }
 
-footer{
+.footer-section-2{
   font-size: 14px;
   background: #292838;
   padding-bottom: 20px;
@@ -379,6 +379,6 @@ footer{
   align-items: end;
 }
 
-footer a{
+.footer-section-2 a{
   color: white;
 }
