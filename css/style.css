@@ -11,19 +11,14 @@ a {
 
 /* --------------------------------HEADER--------------------------------------- */
 
-.container {
-  /* max-width: 1400px; */
-  margin: auto;
-}
-
 .header {
-  height: 22px;
+  height: 20px;
   margin-top: 27px;
   padding: 32px 40px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
+
 .header #checkbox {
   display: none;
 }
@@ -43,45 +38,43 @@ a {
   width: 548px;
   height: 50px;
   display: flex;
-  align-items: center;
-  white-space: nowrap;
-}
-
-.right-info .nav-list {
-  width: 374px;
-  height: 24px;
-  display: flex;
-  margin-right: 48px;
-  justify-content: space-around;
   align-items: flex-start;
 }
 
-.nav-item {
-  padding: 0 24px;
-  cursor: pointer;
+.right-info ul {
+  width: 374px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 48px;
 }
 
-.nav-item.active a {
-  font-weight: 600;
+.right-info ul a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.right-info ul a:hover {
   color: #4e42d9;
 }
 
-.nav-item a:hover {
-  color: #4e42d9;
+.right-info ul a.active {
   font-weight: 600;
+  color: #4e42d9;
 }
 
 .right-info .button a {
-  width: 120px;
-  padding: 19px 1px;
+  width: 126px;
+
+  padding: 16px 30px;
   background-color: #4e42d9;
   border-radius: 4px;
+  text-decoration: none;
   color: white;
-  display: flex;
-  justify-content: center;
 }
 
-.button a:hover {
+.right-info .button a:hover {
   background-color: #3c2edf;
 }
 
@@ -148,7 +141,7 @@ a {
 
 .banner-details .right img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 /* --------------------------------SERVICE Section--------------------------------------- */
@@ -413,6 +406,9 @@ a {
   .banner-details .left .sub-heading {
     font-size: 12px;
   }
+  .container .footer-section-1 {
+    padding-left: 0;
+  }
 }
 
 /*-------------- MEDIUM----------------------- */
@@ -512,4 +508,33 @@ a {
   .right-info .button a {
     margin: auto;
   }
+}
+
+/*-------------- SMALL----------------------- */
+@media (max-width: 560px) {
+  .footer-section-1 .left {
+    padding: 0 10% 0 10%;
+  }
+  .footer-section-1 .right {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    width: 100%;
+  }
+
+  .footer-section-1 .right .column {
+    margin-bottom: 20px;
+    width: 30%;
+  }
+
+  .banner-details .right {
+    max-width: 560px;
+    min-width: 0;
+  }
+  
+  .banner-details .right img {
+    height: auto;
+    width: 100%;
+  }
+
 }
