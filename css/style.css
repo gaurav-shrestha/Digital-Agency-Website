@@ -12,7 +12,7 @@ a {
 /* --------------------------------HEADER--------------------------------------- */
 
 .container {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: auto;
 }
 
@@ -74,7 +74,7 @@ a {
 /* --------------------------------Main BANNER--------------------------------------- */
 
 .banner-details {
-  max-width: 1200px;
+  max-width: 1440px;
   margin-bottom: 36px;
   height: 584px;
   display: flex;
@@ -152,7 +152,7 @@ a {
 .service-section .wrapper {
   height: 20em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0px 40px;
 }
@@ -213,7 +213,7 @@ a {
 /* --------------------------------BLOG Section--------------------------------------- */
 
 .blog {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   background-color: #f8f8f8;
   padding: 74px 40px;
 }
@@ -238,11 +238,11 @@ a {
 }
 
 .blog .wrapper {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   height: auto;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 31px;
   margin-top: 30px;
   padding: 12px;
@@ -251,7 +251,7 @@ a {
 .wrapper .blog-item {
   width: 344.67px;
   height: auto;
-  padding: 12px;
+  padding: 24px;
 }
 
 .wrapper .blog-item .upper-part {
@@ -291,21 +291,18 @@ a {
   color: #797979;
 }
 
-.blog .view-all-btn {
-  width: 135px;
+.blog .view-all-btn a {
   height: 50px;
-  margin: auto;
-  text-align: center;
+  width: 135px;
+  font-weight: 700;
+  font-size: 16px;
   background: #4e42d9;
+  color: white;
   border-radius: 4px;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.blog .view-all-btn a {
-  color: white;
-  font-weight: 700;
-  font-size: 16px;
 }
 
 /* --------------------------------Footer Section-1--------------------------------------- */
@@ -373,12 +370,15 @@ a {
   color: #2ed3cb;
 }
 
-footer a{
+footer{
   font-size: 14px;
-  color: white;
   background: #292838;
   padding-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: end;
+}
+
+footer a{
+  color: white;
 }
