@@ -563,6 +563,7 @@ a {
 
 @media (max-width: 418px){
   .banner-details .left .buttons{
+<<<<<<< HEAD
     padding: 3%;
     flex-direction: column;
     align-items: center;
@@ -600,4 +601,25 @@ a {
     font-size: 10px;
   }
 
+  .banner-details .left .buttons a.active{
+    margin-bottom: 12px;
+    font-size: 14px;
+    padding: 18px 12px;
+  }
+
+  .wrapper .blog-item{
+    width: auto;
+  }
+
+  .wrapper .blog-item:hover{
+    transition: 0.3s;
+    transform: none;
+    box-shadow: 0 25px 50px rgb(8 18 44 / 16%);
+  }
+  .header .logo img{
+    display: none;
+  }
+  .header .logo .logo-text{
+    display: block;
+  }
 }
