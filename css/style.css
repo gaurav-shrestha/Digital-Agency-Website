@@ -687,4 +687,19 @@ a {
     height: 45px;
     width: 112px;
   }
+
+  .left .logo-text {
+    font-size: 25px;
+  }
+  .left .text{
+    font-size: 11px;
+  }
+
+  .links{
+    font-size: 12px;
+  }
+
+  .footer-section-2 a{
+    font-size: 9px;
+  }
 }
