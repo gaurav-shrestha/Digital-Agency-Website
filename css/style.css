@@ -559,6 +559,13 @@ a {
 /*-------------- MINI----------------------- */
 
 @media (max-width: 418px) {
+  .banner-details{
+    padding-bottom: 48px;
+  }
+  .banner-details .left{
+    height: 390px;
+  }
+
   .banner-details .left .buttons {
     padding: 3%;
     flex-direction: column;
@@ -581,7 +588,7 @@ a {
     transform: none;
     box-shadow: 0 25px 50px rgb(8 18 44 / 16%);
   }
-  
+
   .header .logo img {
     display: none;
   }
@@ -622,5 +629,31 @@ a {
 
   .header .logo .logo-text {
     display: block;
+  }
+
+  .service-section .heading{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .service-item .icon {
+    width: 21%;
+    height: 27%;
+  }
+
+  .description .service-name{
+    font-size: 18px;
+  }
+
+  .description .service-details{
+    margin: auto;
+    font-size: 10px;
+    width: 150px;
+  }
+
+  .wrapper .service-item{
+    margin-bottom: 13%;
+    height: auto;
   }
 }
