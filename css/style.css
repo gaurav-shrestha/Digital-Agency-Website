@@ -703,3 +703,13 @@ a {
     font-size: 9px;
   }
 }
+
+/*-------------- SMALL Height and Large Width Display----------------------- */
+@media(max-height: 400px){
+  .header .right-info ul{
+    height: 60vh;
+  }
+  .header .right-info {
+    height: 130vh;
+  }
+}
